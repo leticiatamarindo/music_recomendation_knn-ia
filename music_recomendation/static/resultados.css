@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Alinha os itens para cada extremidade do header */
+    align-items: center;
+}
+
+#logo img {
+    height: 50px;
+}
+
+#titulo-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#titulo h1 {
+    margin: 0;
+    font-size: 2.5vh;
+}
+
+/* Estilo para a lista de recomendações */
+#recomendacoes {
+    margin: 20px;
+}
+
+/* Estilo para os itens da lista */
+#recomendacoes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#recomendacoes li {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#recomendacoes li p {
+    margin: 5px 0;
+}
+
+#recomendacoes li strong {
+    color: rgb(160, 43, 255);
+}
+
+#pesquisar {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+    background-color:black;
+}
+
+#pesquisar:hover {
+    background-color: rgb(160, 43, 255);
+}

@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background:  linear-gradient( #00060c, #1c102c,#2e2040); 
+    display: flex;
+    height: 100vh;
+}
+#header {
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 70%; /* Ocupa a maioria da largura da tela */
+    gap: 10px;
+    padding-left: 45px;
+}
+
+#logo img {
+    height: 50px;
+}
+
+#titulo h1 {
+    margin: 0;
+    font-size: 3.5vh;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%; /* Ocupa quase metade da largura da tela */
+    max-width: 600px; /* Limita a largura máxima do formulário */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: bolder;
+    
+}
+
+button:hover {
+    background-color: rgb(160, 43, 255);
+}

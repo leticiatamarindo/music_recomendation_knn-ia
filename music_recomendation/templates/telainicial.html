@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Music AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='telainicial.css') }}">
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="{{ url_for('static', filename='images/Logo disc.svg') }}" alt="Minha Imagem">
+        </div>
+        <div id="titulo">
+            <h1>Perfect Music AI</h1>
+        </div>
+    </div>
+
+    <div id="botao">
+        <a href="{{ url_for('knnrecomendation') }}">
+            <button>COMECE AGORA</button>
+        </a>
+    </div>
+</body>
+</html>

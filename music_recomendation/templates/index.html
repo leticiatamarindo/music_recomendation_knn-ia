@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Music AI - Recomendações de Música</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header id="header">
+        
+            <div id="logo">
+                <img src="{{ url_for('static', filename='images/Logo disc.svg') }}" alt="Minha Imagem">
+            </div>
+            <div id="titulo">
+                <h1>Perfect Music AI</h1>
+            </div>
+        
+    </header>
+
+    <main id="formulario">
+        <form method="POST" action="/resultados">
+            <label for="track_name">Música</label>
+            <input type="text" id="track_name" name="track_name" required>
+            <br>
+            <label for="artist_name">Artista</label>
+            <input type="text" id="artist_name" name="artist_name" required>
+            <br>
+            <button type="submit">Buscar Recomendações</button>
+        </form>
+    </main>
+</body>
+</html>

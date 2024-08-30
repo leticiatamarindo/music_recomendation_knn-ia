@@ -1,0 +1,56 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient( #010d19, #37638e); 
+    display: flex;
+    flex-direction: column; /* Para alinhar elementos verticalmente */
+    justify-content: center;
+    align-items:center; 
+    min-height: 100vh; 
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espaço entre o topo da página e o cabeçalho */
+}
+
+#logo {
+    margin-right: 10px; /* Espaço entre o logo e o título */
+}
+
+#logo img {
+    max-width: 15vh;
+    height: auto;
+}
+
+#titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    color: rgb(160, 43, 255); 
+}
+
+#botao {
+    margin-top: 20px; /* Espaço entre o cabeçalho e o botão */
+    text-align: center;
+}
+
+#botao button {
+    font-size: 16px;
+    padding: 20px 30px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#botao button:hover {
+    background-color: rgb(54, 9, 90); 
+}
